@@ -1,0 +1,19 @@
+{
+  "name": "2023-05-11-blockchain-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "ethers": "^6.3.0",
+    "next": "13.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

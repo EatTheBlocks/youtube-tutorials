@@ -1,0 +1,18 @@
+.app-outer {
+  display: flex;
+  justify-content: center;
+}
+
+.app-inner {
+  width: 700px;
+}
+
+.address-input {
+  width: 100%;
+}
+
+@media(max-width: 700px) {
+  .app-inner {
+    width: 100%;
+  }
+}
