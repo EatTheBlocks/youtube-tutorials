@@ -1,3 +1,6 @@
 [submodule "2023-12-20-ipfs-ai-nft/nft/lib/forge-std"]
 	path = 2023-12-20-ipfs-ai-nft/nft/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "2023-12-20-ipfs-ai-nft/nft/lib/openzeppelin-contracts"]
+	path = 2023-12-20-ipfs-ai-nft/nft/lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
