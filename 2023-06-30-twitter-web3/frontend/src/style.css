@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  padding: 0 20em;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.app-header {
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid #eee;
+  border-top: none;
+  display: flex;
+  align-items: center;
+}
+
+.connect-wallet {
+  margin-left: auto;
+  color: white;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+
+}
+
+.connect-wallet:hover {
+  background-color: #1385c6;
+}
+
+.connect-wallet:disabled {
+  background-color: #B0DFF5;
+}
+
+.account {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.account-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.account-address {
+  padding-left: 0.5em;
+}
+
+.tweet {
+  border: 1px solid #eee;
+  border-top: none;
+  display: flex;
+  padding: 10px;
+  /*font-family: Arial, sans-serif;*/
+}
+
+.tweet-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tweet-left {
+  margin-right: 10px;
+}
+
+.tweet-right {
+  flex: 1;
+}
+
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-username {
+  font-weight: bold;
+  color: #14171a;
+}
+
+.tweet-timestamp {
+  color: #657786;
+  text-align: right;
+}
+
+.tweet-content {
+  color: #14171a;
+  margin-top: 5px;
+}
+
+.tweetForm {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.tweetForm-textarea {
+  border: none;
+  resize: none;
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 1em;
+  font-family: Arial;
+}
+
+.tweetForm-bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.tweetForm-button {
+  color: white;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.5em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+.tweetForm-button:hover {
+  background-color: #1385c6;
+}
+
+.tweetForm-button:disabled {
+  background-color: #B0DFF5;
+}
+
+.tweet-tip {
+  display: flex;
+}
+
+.tweet-tip-button {
+  margin-left: auto;
+  color: white;
+  background-color: #1DA1F2;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5em 1em;
+}
+
+.tweet-tip-button:hover {
+  background-color: #1385c6;
+}
