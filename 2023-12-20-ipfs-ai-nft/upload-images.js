@@ -40,8 +40,6 @@ function createNFTMetadata(filePath, imageUrl) {
         attributes: [] // Add any additional attributes here
     };
     fs.writeFileSync(filePath, JSON.stringify(metadata));
-
-    return metadata;
 }
 
 async function main() {
@@ -62,7 +60,7 @@ async function main() {
             const imageUrl = `https://ipfs.io/ipfs/${imageUploadResponse.pin.cid}`;
             const metadataFile = `metadata_${i}.json`;
             const metadataPath = `./${metadataFile}`;
-            const metadata = createNFTMetadata(metadataPath, imageUrl);
+            createNFTMetadata(metadataPath, imageUrl);
 
             // Upload metadata
             const metadataUploadResponse = await uploadToIPFS(
